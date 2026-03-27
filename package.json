@@ -1,0 +1,34 @@
+{
+  "name": "@openacp/plugin-conversation-record",
+  "version": "0.1.0",
+  "description": "Record session events and bridge context between sessions for OpenACP",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@openacp/cli": ">=2026.0326.0"
+  },
+  "devDependencies": {
+    "@openacp/plugin-sdk": "^2026.0326.3",
+    "typescript": "^5.4.0",
+    "vitest": "^3.0.0"
+  },
+  "keywords": [
+    "openacp",
+    "plugin",
+    "conversation",
+    "recording",
+    "context-bridge"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lngdao/openacp-conversation-record-plugin"
+  },
+  "license": "MIT"
+}
