@@ -1,4 +1,4 @@
-# @openacp/plugin-conversation-record
+# @lngdao/openacp-plugin-conversation-record
 
 OpenACP plugin that records session events to disk and enables cross-session context injection.
 
@@ -13,7 +13,7 @@ OpenACP plugin that records session events to disk and enables cross-session con
 ## Install
 
 ```bash
-openacp plugin add @openacp/plugin-conversation-record
+openacp plugin add @lngdao/openacp-plugin-conversation-record
 ```
 
 ## Configuration
