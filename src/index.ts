@@ -5,7 +5,7 @@ import { DEFAULT_CONFIG } from './types.js'
 import type { ConversationRecordConfig } from './types.js'
 
 const conversationRecordPlugin: OpenACPPlugin = {
-  name: '@openacp/plugin-conversation-record',
+  name: '@lngdao/openacp-plugin-conversation-record',
   version: '0.1.0',
   description: 'Record session events and bridge context between sessions',
   permissions: [

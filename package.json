@@ -1,5 +1,5 @@
 {
-  "name": "@openacp/plugin-conversation-record",
+  "name": "@lngdao/openacp-plugin-conversation-record",
   "version": "0.1.0",
   "description": "Record session events and bridge context between sessions for OpenACP",
   "type": "module",
